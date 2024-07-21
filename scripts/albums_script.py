@@ -159,6 +159,7 @@ def processUsersData(user_data):
     dataProcessor.editsData(uid, email)
     dataProcessor.cullData(uid, email)
 
+
 df = pd.read_csv("/Users/saurav/Documents/Aftershoot/Daily_Work/firebase_users_list.csv")
 
 user_data_list = list(df.itertuples(index=False, name=None))
